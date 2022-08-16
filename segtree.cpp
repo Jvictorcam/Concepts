@@ -12,7 +12,7 @@ struct segtree{
     */
 
     int size;
-    vector<long long> sums;
+    vector<long long int> sums;
     
     void init(int n){
         size = 1;
